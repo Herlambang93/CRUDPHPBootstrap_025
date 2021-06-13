@@ -105,9 +105,9 @@
 
         <tr>
             <th scope="row"><?php echo $no++; ?></th>
-            <td><?php echo $data['nama']; ?></td>
-            <td><?php echo $data['nim']; ?></td>
+            <td><?php echo $data['nama']; ?></td>           
             <td><?php echo $data['alamat']; ?></td>
+            <td><?php echo $data['nim']; ?></td>
             <td>
                 <a href="detail.php?id=<?php echo $data['id']; ?>" class="btn btn-success btn-sm text-white">DETAIL</a>
                 <a href="edit.php?id=<?php echo $data['id']; ?>" class="btn btn-warning btn-sm text-white">EDIT</a>

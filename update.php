@@ -6,6 +6,6 @@
     $nim = $_POST['nim'];
     $alamat = $_POST['alamat'];
 
-    mysqli_query($koneksi, "update mahasiswa set nama='$nama', nim='$nim', alamat='$alamat', where id='$id'");
+    mysqli_query($koneksi, "update mahasiswa set nama='$nama', nim='$nim', alamat='$alamat' where id='$id'");
     header("location:index.php");
 ?>
